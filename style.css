@@ -1,0 +1,83 @@
+body {
+    font-family: Alegreya, Garamomd;
+    background-color:gainsboro;
+}
+
+a {
+    color: mediumvioletred;
+}
+
+ .curvepic {
+    border-radius: 40px;
+}
+
+a:hover, a:visited:hover {
+    color: limegreen;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+.about {
+    display: inline-block;
+}
+
+h1 {
+    font-family: Prociono;
+    text-align:center;
+    font-size: 60px;
+    color: #7B3F00;
+    margin: 20px 30px;
+}
+
+h2 {
+    margin: 0px 10px; 
+}
+
+h3 {
+    margin: 0px 10px;
+}
+
+h4 {
+    margin: 0px 10px;
+}
+
+p {
+    margin: 0px 20px;
+    
+}
+
+main p {
+    max-width: 1000px;
+}
+
+#intro {
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+footer {
+    text-align: center;
+}
+
+@font-face {
+    font-family: Prociono;
+    src: url(Fonts/Prociono-Regular-webfont.ttf);
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(Fonts/Alegreya/Alegreya-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Sniglet;
+    src: url(Fonts/sniglet-master/Sniglet\ Regular.otf);
+}
+
