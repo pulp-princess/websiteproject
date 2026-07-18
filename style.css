@@ -1,3 +1,14 @@
+@media only screen and (max-width: 480px) {
+    .about {
+        flex-direction:column;
+        padding-bottom: 2em;
+    }
+
+    .booklist li {
+        flex-direction: column;
+    }
+}
+
 body {
     font-family: Alegreya, Garamomd;
     background-color:gainsboro;
@@ -5,6 +16,39 @@ body {
 
 a {
     color: mediumvioletred;
+}
+
+nav {
+    border: 0;
+    padding: 0;
+    padding-bottom: 2em;
+  
+}
+
+nav ul { 
+    list-style-type: none;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+nav ul li {
+
+    padding: 0.5em;
+    display: block;
+    font-weight: bold;
+}
+
+nav li a {
+    color:#7B3F00;
+    text-decoration: wavy;
 }
 
  .curvepic {
@@ -19,9 +63,6 @@ a:visited {
     color: blueviolet;
 }
 
-.about {
-    display: inline-block;
-}
 
 h1 {
     font-family: Prociono;
@@ -45,11 +86,6 @@ h4 {
 
 p {
     margin: 0px 20px;
-    
-}
-
-main p {
-    max-width: 1000px;
 }
 
 #intro {
@@ -61,6 +97,32 @@ main p {
     align-items: center;
     padding-top: 50px;
 }
+
+.indent {
+    text-indent: 2em;
+}
+
+
+.booklist li {
+    display: flex;
+    text-align: center;
+
+}
+
+.booklist li img{
+    margin: 2rem;
+    display: flex;
+    max-width: 200px;
+}
+
+.bookitem {
+    display: flex;
+}
+
+.bookinfo {
+    padding-top: 3rem;
+}
+
 
 footer {
     text-align: center;
